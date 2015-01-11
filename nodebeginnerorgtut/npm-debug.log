@@ -1,0 +1,127 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'formidable' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.34
+4 verbose config Skipping project config: /Users/camillemalonzo/.npmrc. (matches userconfig)
+5 verbose cache add [ 'formidable', null ]
+6 verbose cache add name=undefined spec="formidable" args=["formidable",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'formidable',
+7 verbose parsed url   path: 'formidable',
+7 verbose parsed url   href: 'formidable' }
+8 silly lockFile 8fdd0b7c-formidable formidable
+9 verbose lock formidable /Users/camillemalonzo/.npm/8fdd0b7c-formidable.lock
+10 silly lockFile 8fdd0b7c-formidable formidable
+11 silly lockFile 8fdd0b7c-formidable formidable
+12 verbose addNamed [ 'formidable', '' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile fedfde19-formidable formidable@
+15 verbose lock formidable@ /Users/camillemalonzo/.npm/fedfde19-formidable.lock
+16 silly addNameRange { name: 'formidable', range: '*', hasData: false }
+17 verbose request where is /formidable
+18 verbose request registry https://registry.npmjs.org/
+19 verbose request id 0a2fd08b5448608b
+20 verbose url raw /formidable
+21 verbose url resolving [ 'https://registry.npmjs.org/', './formidable' ]
+22 verbose url resolved https://registry.npmjs.org/formidable
+23 verbose request where is https://registry.npmjs.org/formidable
+24 info trying registry request attempt 1 at 17:42:52
+25 verbose etag "69G98JOTL715JG4AQ57XP6AC8"
+26 http GET https://registry.npmjs.org/formidable
+27 http 304 https://registry.npmjs.org/formidable
+28 silly registry.get cb [ 304,
+28 silly registry.get   { date: 'Fri, 09 Jan 2015 22:42:52 GMT',
+28 silly registry.get     server: 'Apache',
+28 silly registry.get     via: '1.1 varnish',
+28 silly registry.get     'last-modified': 'Fri, 09 Jan 2015 22:42:52 GMT',
+28 silly registry.get     'cache-control': 'max-age=60',
+28 silly registry.get     etag: '"69G98JOTL715JG4AQ57XP6AC8"',
+28 silly registry.get     age: '38',
+28 silly registry.get     'x-served-by': 'cache-jfk1020-JFK',
+28 silly registry.get     'x-cache': 'HIT',
+28 silly registry.get     'x-cache-hits': '1',
+28 silly registry.get     'x-timer': 'S1420843372.239649,VS0,VE0',
+28 silly registry.get     vary: 'Accept',
+28 silly registry.get     'content-length': '0',
+28 silly registry.get     'keep-alive': 'timeout=10, max=50',
+28 silly registry.get     connection: 'Keep-Alive' } ]
+29 verbose etag https://registry.npmjs.org/formidable from cache
+30 silly addNameRange number 2 { name: 'formidable', range: '*', hasData: true }
+31 silly addNameRange versions [ 'formidable',
+31 silly addNameRange   [ '0.3.0',
+31 silly addNameRange     '0.4.0',
+31 silly addNameRange     '0.5.0',
+31 silly addNameRange     '0.6.0',
+31 silly addNameRange     '0.7.0',
+31 silly addNameRange     '0.8.0',
+31 silly addNameRange     '0.9.0',
+31 silly addNameRange     '0.9.1',
+31 silly addNameRange     '0.9.2',
+31 silly addNameRange     '0.9.3',
+31 silly addNameRange     '0.9.4',
+31 silly addNameRange     '0.9.5',
+31 silly addNameRange     '0.9.6',
+31 silly addNameRange     '0.9.7',
+31 silly addNameRange     '0.9.8',
+31 silly addNameRange     '0.9.9',
+31 silly addNameRange     '0.9.10',
+31 silly addNameRange     '0.9.11',
+31 silly addNameRange     '1.0.0',
+31 silly addNameRange     '1.0.1',
+31 silly addNameRange     '1.0.2',
+31 silly addNameRange     '1.0.3',
+31 silly addNameRange     '1.0.4',
+31 silly addNameRange     '1.0.5',
+31 silly addNameRange     '1.0.6',
+31 silly addNameRange     '1.0.7',
+31 silly addNameRange     '1.0.8',
+31 silly addNameRange     '1.0.9',
+31 silly addNameRange     '1.0.10',
+31 silly addNameRange     '1.0.11',
+31 silly addNameRange     '1.0.12',
+31 silly addNameRange     '1.0.13',
+31 silly addNameRange     '1.0.14',
+31 silly addNameRange     '1.0.15',
+31 silly addNameRange     '1.0.16' ] ]
+32 verbose addNamed [ 'formidable', '1.0.16' ]
+33 verbose addNamed [ '1.0.16', '1.0.16' ]
+34 silly lockFile 7324c0d4-formidable-1-0-16 formidable@1.0.16
+35 verbose lock formidable@1.0.16 /Users/camillemalonzo/.npm/7324c0d4-formidable-1-0-16.lock
+36 silly lockFile 7a14560a-formidable-formidable-1-0-16-tgz https://registry.npmjs.org/formidable/-/formidable-1.0.16.tgz
+37 verbose lock https://registry.npmjs.org/formidable/-/formidable-1.0.16.tgz /Users/camillemalonzo/.npm/7a14560a-formidable-formidable-1-0-16-tgz.lock
+38 verbose addRemoteTarball [ 'https://registry.npmjs.org/formidable/-/formidable-1.0.16.tgz',
+38 verbose addRemoteTarball   '4916cfdfc4cbed020b257a6a9505a9ab38c2cd0e' ]
+39 info retry fetch attempt 1 at 17:42:52
+40 verbose fetch to= /var/folders/k4/061h4bl536730j8hxgrm8rh00000gn/T/npm-517-bWJGe4ri/registry.npmjs.org/formidable/-/formidable-1.0.16.tgz
+41 http GET https://registry.npmjs.org/formidable/-/formidable-1.0.16.tgz
+42 http 200 https://registry.npmjs.org/formidable/-/formidable-1.0.16.tgz
+43 silly lockFile 7a14560a-formidable-formidable-1-0-16-tgz https://registry.npmjs.org/formidable/-/formidable-1.0.16.tgz
+44 silly lockFile 7a14560a-formidable-formidable-1-0-16-tgz https://registry.npmjs.org/formidable/-/formidable-1.0.16.tgz
+45 silly lockFile 7324c0d4-formidable-1-0-16 formidable@1.0.16
+46 silly lockFile 7324c0d4-formidable-1-0-16 formidable@1.0.16
+47 silly lockFile fedfde19-formidable formidable@
+48 silly lockFile fedfde19-formidable formidable@
+49 error Error: EACCES, mkdir '/Users/camillemalonzo/.npm/formidable/1.0.16'
+49 error  { [Error: EACCES, mkdir '/Users/camillemalonzo/.npm/formidable/1.0.16']
+49 error   errno: 3,
+49 error   code: 'EACCES',
+49 error   path: '/Users/camillemalonzo/.npm/formidable/1.0.16' }
+50 error Please try running this command again as root/Administrator.
+51 error System Darwin 14.0.0
+52 error command "node" "/usr/local/bin/npm" "install" "formidable"
+53 error cwd /Users/camillemalonzo/GitHub/winterbreak2014/nodebeginnerorgtut
+54 error node -v v0.10.34
+55 error npm -v 1.4.28
+56 error path /Users/camillemalonzo/.npm/formidable/1.0.16
+57 error code EACCES
+58 error errno 3
+59 error stack Error: EACCES, mkdir '/Users/camillemalonzo/.npm/formidable/1.0.16'
+60 verbose exit [ 3, true ]
